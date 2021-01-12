@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "继承"
+title: "call apply bind"
 categories: javascript
 tags: ["js基础"]
 author:
@@ -13,6 +13,7 @@ author:
 #### 知识点
 1. 第一个参数传null，undefined等，内部会将函数中的this指向window。
 #### 手写一个call
+
 ```javascript
   // 手写call
   Function.prototype.myCall = function(obj, ...args) {
