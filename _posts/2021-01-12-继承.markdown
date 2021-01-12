@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "继承"
 categories: javascript
-tags: [javascript, "原型链","继承"]
+tags: ["原型链","继承"]
 author:
   - huangxx
 ---
